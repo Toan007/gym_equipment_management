@@ -1,0 +1,10 @@
+.main-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+    .body-wrapper {
+        height: 100vh;
+        width: fit-content;
+    }
+}

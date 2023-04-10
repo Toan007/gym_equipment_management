@@ -1,0 +1,75 @@
+{
+  "name": "qlpg",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@mui/material": "^5.10.17",
+    "@react-native-material/core": "^1.3.7",
+    "@testing-library/jest-dom": "^5.11.10",
+    "@testing-library/react": "^11.2.5",
+    "@testing-library/user-event": "^12.8.3",
+    "apexcharts": "^3.22.2",
+    "awesome-react-icons": "^1.4.8",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "date-and-time": "^1.0.0",
+    "firebase": "^8.1.1",
+    "fusioncharts": "^3.15.3",
+    "ka-table": "^6.8.0",
+    "moment": "^2.29.4",
+    "react": "^17.0.1",
+    "react-apexcharts": "^1.3.7",
+    "react-bootstrap": "^1.5.0",
+    "react-burger-menu": "^2.9.0",
+    "react-dom": "^17.0.1",
+    "react-excel-grid-export": "^0.6.1",
+    "react-fusioncharts": "^3.1.2",
+    "react-hook-form": "^6.15.4",
+    "react-icons": "^4.2.0",
+    "react-moment": "^1.1.3",
+    "react-pro-sidebar": "^0.6.0",
+    "react-redux": "^7.2.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.0",
+    "react-to-print": "^2.12.4",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "reselect": "^4.0.0",
+    "rodal": "^1.8.1",
+    "sass": "^1.58.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "styled-components": "^5.3.0",
+    "tempa-xlsx": "^0.8.20",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "set PORT=8000 && react-scripts start",
+    "server": "cd server && npm start",
+    "deploy": "\"npm start\" \"npm run server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

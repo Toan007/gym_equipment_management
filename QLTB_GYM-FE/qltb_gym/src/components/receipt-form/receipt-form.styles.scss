@@ -1,0 +1,12 @@
+.rodal-zoom-enter {
+    overflow-y: scroll;
+
+    .btn-grp {
+        display: flex;
+        justify-content: space-around;
+
+        button {
+            min-width: 170px;
+        }
+    }
+}

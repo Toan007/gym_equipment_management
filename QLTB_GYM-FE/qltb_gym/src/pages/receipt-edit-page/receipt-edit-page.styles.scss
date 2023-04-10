@@ -1,0 +1,62 @@
+.container-add-page {
+    margin: 20px 20px;
+    display: flex;
+    flex-direction: column;
+
+    button {
+        width: 15vw;
+        height: 50px;
+        align-self: flex-end;
+        margin: 0 30px 30px 0;
+        border-radius: 40px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        color: black;
+
+        .headerr {
+            display: flex;
+            input {
+                &::-webkit-calendar-picker-indicator { 
+                    display: none; 
+                }
+            }
+
+            #add-btn {
+                position: relative;
+                right: 0;
+                min-width: 200px;
+            }
+
+            .form-group {
+                width: 300px;
+                margin-right: 20px;
+                height: 100px;
+
+                input {
+                    width: 200px;
+                }
+            }
+        }
+
+        
+    }
+    
+    input {
+        margin-right: 20px;
+    }
+
+    .select-container {
+        
+    }
+
+    
+    #save-btn {
+        width: 100px;
+        align-self: flex-end;
+    }
+}

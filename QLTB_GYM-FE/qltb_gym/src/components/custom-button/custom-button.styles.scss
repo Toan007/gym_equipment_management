@@ -1,0 +1,47 @@
+.ct-btn {
+    min-width: 100px;
+    width: auto;
+    height: 50px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+    padding: 0 35px 0 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed';
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color: #116dff;
+    border: 2px solid #116dff;
+
+    &:hover {
+        background-color: #116dff;
+        color: white;
+    }
+}
+
+.facebook-signin {
+    background-color: #3b5998;
+    color: white;
+
+    &:hover {
+        background-color: #415e9e;
+        color: white;
+        border: none;
+    }
+    
+}
+
+.google-signin {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+        background-color: #357ae8;
+        color: white;
+        border: none;
+    }
+}

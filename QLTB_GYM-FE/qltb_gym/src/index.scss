@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #dddddd;
+
+  .rodal-dialog {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 5%;
+
+    label {
+      font-weight: 500;
+    }
+
+    input{
+      border: #495057 solid 1px;
+    }
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+  
+
+  .root {
+    height: 100vh;
+  }
+
+  .page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 10px 10px 0;
+    padding-top: 10px;
+    color: black;
+    
+    .ka {
+      opacity: 0.8;
+
+      .ka-tbody {
+        td {
+          font-weight: 500;
+        }
+      }
+    }
+
+    input, select, option, textarea {
+      color: black;
+      font-weight: 500;
+      opacity: 0.8;
+      background-color: #b1abab;
+    }
+  }
+
+  .search {
+    display: block;
+    width: 250px;
+    height: calc(1.5em + .75rem + 2px);
+    margin: 24.8px 10px 0 0;
+    padding-left: 10px;
+    font-size: 1rem;
+    margin-top: auto;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #b1abab;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  }
+  .search-filter {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+$base-color: black;
+$blue-color: #22ac11;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: $base-color;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: none;
+  color: unset;
+  background-color: unset;
+  border-color: unset;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2.2rem;
+}
+
+.btn {
+  letter-spacing: 1px;
+}
+
+.input-form {
+  width: 60%;
+  margin: 3rem auto;
+}
+
+.errorMsg {
+  max-width: 350px;
+  color: #f21e08;
+  padding: 2px 0;
+  margin-top: 2px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.login-error {
+  font-size: 1.1rem;
+}
+
+.successMsg {
+  color: $blue-color;
+}
+
+.loading {
+  color: #777;
+}
+
+.form-control.input-error {
+  border: 2px solid #f21e08;
+}
+
+.user-details {
+  color: $blue-color;
+  padding: 5px 0;
+  margin-bottom: 1rem;
+}
+
+
